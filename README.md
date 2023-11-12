@@ -1,2 +1,2 @@
 # AirBnB_clone
-Team Project EL IDRISSI - NAFTALI
+Team Project EL IDRISSI IMANE - NAFTALI
