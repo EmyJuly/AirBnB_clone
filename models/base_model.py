@@ -39,7 +39,7 @@ def __init__(self, *args, **kwargs):
         new.model.storage(self)
 
 
-def to_dictionary(self):
+def to_dict(self):
     """
     The dictionary of the BaseModel instance is returned
     representation of a key-value pair __class__
