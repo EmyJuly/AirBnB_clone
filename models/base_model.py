@@ -14,7 +14,7 @@ def save(self):
     Keeps updated_at up to date with current datetime
     """
     self.updated_at = datetime.today()
-    save.models.storage()
+    models.storage.save()
 
 
 def __init__(self, *args, **kwargs):
@@ -36,7 +36,7 @@ def __init__(self, *args, **kwargs):
             else:
                 self.__dict__[m] = n
     else:
-        new.model.storage(self)
+        models.storage.new(self)
 
 
 def to_dict(self):
@@ -56,5 +56,5 @@ def __str__(self):
     """
     The BaseModel instance string representation is returned
     """
-    class_name = self.__class__.__name__
-    return "[{}] ({}) {}".format(class_name, self.id, self.__dict__)
+    clname = self.__class__.__name__
+    return "[{}] ({}) {}".format(clname, self.id, self.__dict__)
