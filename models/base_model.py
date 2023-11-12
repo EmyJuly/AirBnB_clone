@@ -25,7 +25,7 @@ def __init__(self, *args, **kwargs):
     *args: not used
     **kwargs (dict): key-value pairs of attributes
     """
-    self.id = str(uuid4)
+    self.id = str(uuid4())
     tform = "%Y-%m-%dT%H:%M:%S.%f"
     self.updated_at = datetime.today()
     self.created_at = datetime.today()
