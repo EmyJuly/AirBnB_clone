@@ -11,7 +11,8 @@ import os
 import unittest
 import models
 from time import sleep
-from datetime import datetime from models.state import State
+from datetime import datetime
+from models.state import State
 
 
 class TestState_save(unittest.TestCase):

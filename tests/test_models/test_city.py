@@ -37,7 +37,8 @@ class TestCity_save(unittest.TestCase):
     def test_single_save(self):
         cty = City()
         sleep(0.05)
-        first_updated_at = cty.updated_at cty.save()
+        first_updated_at = cty.updated_at
+        cty.save()
         self.assertLess(first_updated_at, cty.updated_at)
 
     def test_double_saves(self):

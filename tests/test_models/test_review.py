@@ -197,5 +197,5 @@ class TestReview_to_dict(unittest.TestCase):
             rev.to_dict(None)
 
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     unittest.main()

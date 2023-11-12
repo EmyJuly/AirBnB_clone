@@ -44,7 +44,8 @@ class TestPlace_save(unittest.TestCase):
     def test_double_saves(self):
         env = Place()
         sleep(0.05)
-        first_updated_at = env.updated_at env.save()
+        first_updated_at = env.updated_at
+        env.save()
         second_updated_at = env.updated_at
         self.assertLess(first_updated_at, second_updated_at)
         sleep(0.05)
