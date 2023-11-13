@@ -6,9 +6,7 @@ from models.base_model import BaseModel
 class State(BaseModel):
     """The State class representation
 
-Attributes:
-name (str): state name
-"""
-
-
-name = ""
+    Attributes:
+    name (str): state name
+    """
+    name = ""
