@@ -72,7 +72,7 @@ class TestBaseModel_instantiation(unittest.TestCase):
         self.assertEqual(BaseModel, type(BaseModel()))
 
     def test_the_new_instance_stored_in_objects(self):
-        self.assertIn(BaseModel(), models.storage.all().value())
+        self.assertIn(BaseModel(), models.storage.all().values())
 
     def test_the_id_public_str(self):
         self.assertEqual(str, type(BaseModel().id))

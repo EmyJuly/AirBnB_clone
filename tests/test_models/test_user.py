@@ -73,6 +73,7 @@ class TestUser_instantiation(unittest.TestCase):
         self.assertEqual(User, type(User()))
 
     def test_the_new_instance_stored_in_objects(self):
+        user_instance = User()
         self.assertIn(user_instance, models.storage.all().values())
 
     def test_the_id_public_str(self):
