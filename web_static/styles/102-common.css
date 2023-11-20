@@ -1,0 +1,60 @@
+/****************************************************************************/
+/* resetting css */
+/****************************************************************************/
+*{
+	list-style: none;
+	outline: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	border: none;
+}
+/****************************************************************************/
+/* the common styles */
+/****************************************************************************/
+html {
+	box-sizing: border-box;
+}
+
+/****************************************************************************/
+/* the first mobile responsive */
+/****************************************************************************/
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) */
+body {
+	z-index: 0;
+	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	color: #484848;
+	width: 100%;
+	flex-direction: column;
+	display: flex;
+	justify-content: space-between;
+}
+span {
+	color: #000000;
+}
+.container {
+	flex-grow: 1;
+	flex-direction: column;
+	display: flex;
+	margin: 2rem auto;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+	body {
+		margin: 0 auto;
+		max-width: 1920px;
+	}
+}
