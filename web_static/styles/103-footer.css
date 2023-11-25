@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @media only screen and (max-width: 600px) {
+=======
+i@media only screen and (max-width: 600px) {
+>>>>>>> c6205d125ad2801cf4a04f3896407ea5b66fb0e0
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -14,6 +18,7 @@
 
 }
 footer {
+<<<<<<< HEAD
   clear: left;
   height: 60px;
   width: 100%;
@@ -28,4 +33,20 @@ footer {
 footer p {
   color: #484848;
   text-align: center;
+=======
+	background-color: #FFF;
+	clear: left;
+	align-items: center;
+	height: 60px;
+	width: 100%;
+	border-top: 1px solid #CCCCCC;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+footer p {
+	text-align: center;
+	color: #484848;
+>>>>>>> c6205d125ad2801cf4a04f3896407ea5b66fb0e0
 }

@@ -1,5 +1,9 @@
 .filters {
+<<<<<<< HEAD
   display: none;
+=======
+	display: none;
+>>>>>>> c6205d125ad2801cf4a04f3896407ea5b66fb0e0
 }
 @media only screen and (max-width: 600px) {
 }
@@ -10,6 +14,7 @@
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+<<<<<<< HEAD
   .filters {
     height: 70px;
     width: 100%;
@@ -111,6 +116,109 @@
     display: block;
     cursor: pointer;
   }
+=======
+	.filters {
+		height: 70px;
+		border: 1px solid #DDDDDD;
+		display: flex;
+		width: 100%;
+		border-radius: 4px;
+		align-items: center;
+		box-sizing: border-box;
+	}
+
+	button {
+		width: 20%;
+		border: none;
+		align-self: center;
+		font-size: 18px;
+		background-color: #FF5A5F;
+		height: 48px;
+		max-width: 220px;
+		border-radius: 4px;
+		margin: auto 30px auto auto;
+		color: #FFF;
+	}
+
+	button:hover {
+		cursor: pointer;
+		opacity: .9;
+	}
+
+	.locations,
+	.amenities {
+		height: 100%;
+		width: 25%;
+		/* display: inline-block;
+		vertical-align: left; */
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+}
+
+.locations {
+	border-right: 1px solid #DDDDDD;
+}
+
+.locations h3,
+.amenities h3{
+	font-weight: 600;
+	margin: 1em 0 auto 30px;
+}
+
+.locations h4,
+.amenities h4 {
+	font-size: 14px;
+	font-weight: 400;
+	margin: auto 0 auto 30px;
+}
+
+/* ================================================================= */
+/* the dropdown menu */
+/* ================================================================= */
+
+.popover {
+	display: none;
+	border: 1px solid #DDDDDD;
+	padding: 20px 20px 20px 20px;
+	border-radius: 4px;
+	background-color: #FAFAFA;
+	margin: 17px 0 0 0;
+}
+
+.popover ul {
+	margin-left: 10px;
+}
+
+ul > ul {
+	padding: 0;
+}
+.popover li{
+	list-style-type: none;
+}
+
+.popover h2 {
+	margin: 5px auto 5px auto;
+	font-size: 16px;
+}
+
+/* drop down on hover */
+
+.locations:hover,
+.amenities:hover {
+	cursor: pointer;
+}
+
+.locations:hover .popover {
+	display: block;
+	cursor: pointer;
+}
+
+.amenities:hover .popover {
+	display: block;
+	cursor: pointer;
+}
+>>>>>>> c6205d125ad2801cf4a04f3896407ea5b66fb0e0
 
 }
 /* Large devices (laptops/desktops, 992px and up) */

@@ -1,4 +1,5 @@
 /****************************************************************************/
+<<<<<<< HEAD
 /* reset css */
 /****************************************************************************/
 *{
@@ -18,11 +19,33 @@ html {
 
 /****************************************************************************/
 /* mobile first resposive */
+=======
+/* resetting css */
+/****************************************************************************/
+*{
+	list-style: none;
+	outline: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	border: none;
+}
+/****************************************************************************/
+/* the common styles */
+/****************************************************************************/
+html {
+	box-sizing: border-box;
+}
+
+/****************************************************************************/
+/* the first mobile responsive */
+>>>>>>> c6205d125ad2801cf4a04f3896407ea5b66fb0e0
 /****************************************************************************/
 
 /* Extra small devices (phones, 600px and down) */
 /* @media only screen and (max-width: 600px) */
 body {
+<<<<<<< HEAD
   z-index: 0;
 	font-size: 14px;
 	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -31,15 +54,32 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+=======
+	z-index: 0;
+	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	color: #484848;
+	width: 100%;
+	flex-direction: column;
+	display: flex;
+	justify-content: space-between;
+>>>>>>> c6205d125ad2801cf4a04f3896407ea5b66fb0e0
 }
 span {
 	color: #000000;
 }
 .container {
+<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   flex-grow: 1;
   margin: 2rem auto;
+=======
+	flex-grow: 1;
+	flex-direction: column;
+	display: flex;
+	margin: 2rem auto;
+>>>>>>> c6205d125ad2801cf4a04f3896407ea5b66fb0e0
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -54,7 +94,12 @@ span {
 @media only screen and (min-width: 992px) {
 
 	body {
+<<<<<<< HEAD
 		max-width: 1920px;
 		margin: 0 auto;
+=======
+		margin: 0 auto;
+		max-width: 1920px;
+>>>>>>> c6205d125ad2801cf4a04f3896407ea5b66fb0e0
 	}
 }

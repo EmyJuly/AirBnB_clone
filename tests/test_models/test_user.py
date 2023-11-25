@@ -73,7 +73,8 @@ class TestUser_instantiation(unittest.TestCase):
         self.assertEqual(User, type(User()))
 
     def test_the_new_instance_stored_in_objects(self):
-        self.assertIn(User(), models.storage.all().values())
+        user_instance = User()
+        self.assertIn(user_instance, models.storage.all().values())
 
     def test_the_id_public_str(self):
         self.assertEqual(str, type(User().id))
@@ -120,6 +121,10 @@ class TestUser_instantiation(unittest.TestCase):
         usr.id = "123456"
         usr.created_at = usr.updated_at = now
         usrstr = usr.__str__()
+
+        print("Expected String:", "[User] (123456)")
+        print("Actual String:", usrstr)
+
         self.assertIn("[User] (123456)", usrstr)
         self.assertIn("'id': '123456'", usrstr)
         self.assertIn("'created_at': " + now_repr, usrstr)

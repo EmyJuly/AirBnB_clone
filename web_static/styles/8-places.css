@@ -1,4 +1,5 @@
 .places{
+<<<<<<< HEAD
     display: flex;
     flex-direction: column;
     padding-left: 30px;
@@ -136,4 +137,143 @@ article h2{
     text-align: left;
     margin-top: 7px;
     margin-bottom: 0px;
+=======
+	padding-left: 30px;
+	display: flex;
+	flex-direction: column;
+}
+.places h1{
+	font-size: 30px;
+}
+.places_title{
+	padding-top: 30px;
+	margin-bottom: -25px;
+}
+.articles{
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+}
+article{
+	display: flex;
+	position: relative;
+	width: 390px;
+	font-size: 30px;
+	margin: 20px;
+	padding: 20px;
+	border: solid #FF5A5F 1px;
+	border-radius: 4px;
+	text-align: center;
+	justify-content: flex-start;
+	padding-bottom: 30px;
+	flex-direction: column;
+}
+article h2{
+	padding-left: 0%;
+	margin-top: -1px;
+	font-size: 30px;
+}
+.article_title{
+	width: 100%;
+}
+.price_by_night{
+	min-width: 60px;
+	display: flex;
+	color: #FF5A5F;
+	font-size: 30px;
+	border: 4px solid #FF5A5F;
+	height: 60px;
+	border-radius: 50%;
+	justify-content: center;
+	position: absolute;
+	align-items: center;
+	margin-left: auto;
+	top: 10px;
+	right: 20px;
+	margin-top: -5px;
+}
+.price{
+	margin-top: -1px;
+}
+.price_title{
+	display: flex;
+}
+.information{
+	display: flex;
+	height: 80px;
+	flex-direction: row;
+	border-top: solid #DDDDDD 1px;
+	border-bottom: solid #DDDDDD 1px;
+	justify-content: center;
+}
+.max_guest{
+	width: 100px;
+	flex-direction: column;
+	height: inherit;
+	display: flex;
+	justify-content: center;
+}
+.guest_icon{
+	margin-left: 35px;
+	height: inherit;
+	width: inherit;
+	background: url("../images/icon_group.png");
+	background-repeat: no-repeat;
+}
+.guest_number h2{
+	color:  #484848;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.number_rooms{
+	display: flex;
+	flex-direction: column;
+	width: 100px;
+	height: inherit;
+	justify-content: center;
+}
+.rooms_icon{
+	height: inherit;
+	width: inherit;
+	margin-left: 35px;
+	background: url("../images/icon_bed.png");
+	background-repeat: no-repeat;
+}
+.rooms_number h2{
+	font-weight: normal;
+	font-size: 14px;
+	color:  #484848;
+}
+
+.number_bathrooms{
+	display: flex;
+	width: 100px;
+	height: inherit;
+	flex-direction: column;
+	justify-content: center;
+}
+.bathrooms_icon{
+	margin-left: 35px;
+	width: inherit;
+	height: inherit;
+	background: url("../images/icon_bath.png");
+	background-repeat: no-repeat;
+}
+.bathrooms_number h2{
+	color:  #484848;
+	font-size: 14px;
+font-weight: normal;}
+.user{
+	color: #484848;
+	font-size: 14px;
+	text-align: left;
+	margin-top: 15px;
+}
+.description{
+	margin-top: 7px;
+	text-align: left;
+	font-size: 14px;
+	margin-bottom: 0px;
+>>>>>>> c6205d125ad2801cf4a04f3896407ea5b66fb0e0
 }

@@ -1,11 +1,19 @@
 /****************************************************************************/
+<<<<<<< HEAD
 /* reset css */
 /****************************************************************************/
 *{
+=======
+/* resetting css */
+/****************************************************************************/
+*{
+	border: none;
+>>>>>>> c6205d125ad2801cf4a04f3896407ea5b66fb0e0
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	text-decoration: none;
+<<<<<<< HEAD
 	border: none;
 	outline: none;
 }
@@ -18,6 +26,19 @@ html {
 
 /****************************************************************************/
 /* mobile first resposive */
+=======
+	outline: none;
+}
+/****************************************************************************/
+/* the common styles */
+/****************************************************************************/
+html {
+	box-sizing: border-box;
+}
+
+/****************************************************************************/
+/* mobile first responsive */
+>>>>>>> c6205d125ad2801cf4a04f3896407ea5b66fb0e0
 /****************************************************************************/
 
 /* Extra small devices (phones, 600px and down) */
@@ -25,20 +46,35 @@ html {
 body {
 	font-size: 14px;
 	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+<<<<<<< HEAD
   width: 100%;
   color: #484848;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+=======
+	width: 100%;
+	flex-direction: column;
+	display: flex;
+	justify-content: space-between;
+	color: #484848;
+>>>>>>> c6205d125ad2801cf4a04f3896407ea5b66fb0e0
 }
 span {
 	color: #000000;
 }
 .container {
+<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   flex-grow: 1;
   margin: 2rem auto;
+=======
+	flex-grow: 1;
+	display: flex;
+	margin: 2rem auto;
+	flex-direction: column;
+>>>>>>> c6205d125ad2801cf4a04f3896407ea5b66fb0e0
 }
 
 /*****************************/

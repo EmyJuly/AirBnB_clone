@@ -45,7 +45,8 @@ class TestState_save(unittest.TestCase):
     def test_double_saves(self):
         ste = State()
         sleep(0.05)
-        first_updated_at = ste.updated_at ste.save()
+        first_updated_at = ste.updated_at
+        ste.save()
         second_updated_at = ste.updated_at
         self.assertLess(first_updated_at, second_updated_at)
         sleep(0.05)
